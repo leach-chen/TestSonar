@@ -26,19 +26,3 @@ function test3(){
           break;
       }
 }
-
-function test4(){
-  let target =-5;
-  let num = 3;
-  
-  target =- num;  // Noncompliant; target = -3. Is that really what's meant?
-  target =+ num; // Noncompliant; target = 3
-}
-
-function test5(){
-  let target =-5;
-  let num = 3;
-  
-  target =- num;  // Noncompliant; target = -3. Is that really what's meant?
-  target =+ num; // Noncompliant; target = 3
-}
