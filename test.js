@@ -26,3 +26,7 @@ function test3(){
           break;
       }
 }
+
+function test4(){
+
+}
